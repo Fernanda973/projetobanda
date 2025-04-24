@@ -1,3 +1,43 @@
 body{
-background-color: mediumslateblue;
+background-color: rgb(149, 142, 197); /*altera a cor de fundo do elemento*/
+color: rgb(0, 0, 0); /*altera a cor do texto do elemento*/
 }
+/*table, tr, td, th{
+    background-color: rgb(130, 100, 187);/* cor da tabela*/
+    /*border: 1px solid rgb(233, 250, 0);*/
+    /*border-color: rgb(0, 0, 0);/*cor da borda*/
+    /*border-width: 2px;
+    /*border-style: solid;
+    /*border-collapse: collapse; /*deixa a borda com uma unica linha*/
+/*}*/
+/*th{
+    background-color: rgb(189, 189, 255);/*muda a or do cabeçalho*/
+    /*color: rgb(0, 0, 0);
+}*/
+/*table{
+    width: 625px;
+}*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #d0b6fa}
+  tr:nth-last-child(odd){background-color: rgb(244, 213, 247);}
+  
+  th {
+    background-color: #3e04aa;
+    color: white;
+  }
+
+  /*altera a cor de fundo e da letra quando o cursor passa por cima*/
+  tr :hover{
+    background-color: cornflowerblue;
+    color: deeppink;
+    font-size: 20px;
+  }
