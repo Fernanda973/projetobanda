@@ -1,16 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mapeamento</title>
-</head>
-<body>
-    
-    <h1>Mapeamento de imagens</h1>
-    <img src="../img/formasGeo.png" alt="" usemap="#mapa">
-    <map name="mapa">
-        <area shape="" coords="" href="" alt="">
-    </map>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mapeamento</title>
+        <link rel="stylesheet" href="../css/mapestilo.css">
+    </head>
+    <body>
+        <h1 class="fundo_vermelho centralizado">h1 fora da div</h1>
+        <p>Paragrafo fora da div</p>
+        <div id="fer">
+            <h1>Dentro da div</h1>
+            <h2>h2 dentro da div</h2>
+            <p>paragrafo 1 <span>dentro</span> da div</p>
+            <p class="fundo_vermelho">paragrafo 2 dentro da div</p>
+        </div>
+        <div>
+            <h1>Dentro da div</h1>
+            <h2>h2 dentro da div</h2>
+            <p>paragrafo 1 dentro da div</p>
+            <p class="fundo_vermelho">paragrafo 2 dentro da div</p>
+        </div>
+
+
+
+        <header id="cabecalho">
+            <h1>Mapeamento de imagens</h1>
+            <nav id="menup">
+                <ul>
+                    <li>Home</li>
+                    <li>Contatos</li>
+                </ul>
+                <!--Menu-->
+            </nav>
+        </header>
+        <main>
+            <section id="noticia"> <!--seção de algo-->
+                <article class="not">
+                    <!--colocar outros artigos/paginas-->
+                </article>
+            </section>
+
+            <img src="../img/formasGeo.png" alt usemap="#geraldo">
+            <map name="geraldo">
+                <area shape="rect" coords="80, 94, 124, 136"
+                    href="https://g1.globo.com/" alt>
+                <area shape="circle" coords="46, 116, 21"
+                    href="https://www.netflix.com/br/" alt>
+                <area shape="rect" coords="146, 94, 206, 137"
+                    href="https://open.spotify.com/intl-pt" alt>
+                <area shape="poly" coords="229, 136, 248, 96, 270, 136"
+                    href="https://www.climatempo.com.br/" alt>
+            </map>
+        </main>
+        <footer>
+            <!--rodapé-->
+        </footer>
+    </body>
 </html>
